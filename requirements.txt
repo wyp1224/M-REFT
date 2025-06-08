@@ -1,0 +1,14 @@
+# Core dependencies
+torch>=1.10.0
+numpy>=1.21.0
+tqdm>=4.62.0
+
+# Development & Utils
+logging
+argparse
+pickle
+datetime
+
+# Note:
+# - PyTorch installation may require specific CUDA version
+# - For GPU support, use: torch==1.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
